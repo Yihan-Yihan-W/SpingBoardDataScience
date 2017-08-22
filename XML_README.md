@@ -16,14 +16,14 @@ The data source is from Mondial database:  http://www.dbis.informatik.uni-goetti
     get the list of population of each ethnictity in each country
     read list as dataframe, group by ethnicity and sum within each group
 # 4) Name & Country of 
-A) longest river
+    A) longest river
     use root.iter() to find "river" element
     use if to compare length of river
     return country name attribute by using element.get()
-B) largest lake
+    B) largest lake
     same methods as A)
-C) highest elevation airport 
-   # ?????? I can't convert string to int/float #
+    C) highest elevation airport 
+    # ?????? I can't convert string to int/float #
    
 
 # Useful codes:
