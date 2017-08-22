@@ -2,7 +2,7 @@
 Codes for data science courses
 
 
-JSON_world_bank.ipynb is the practice for JSON and Pandas library
+# JSON_world_bank.ipynb is the practice for JSON and Pandas library
 1) I normalize the JSON_world_bank data and extract the top 10 countries with most projects
 2) I Find the top 10 major project themes based on themecode
    I found the themecode difficult to understand, therefore, 
@@ -15,7 +15,7 @@ JSON_world_bank.ipynb is the practice for JSON and Pandas library
 4) To make sure the top 10 major project themes count is correct, I count again using themename.
    Then, apply the same merging techniques to show both themecode and theme name on the data frame.
 
-Useful functions:
+# Useful functions:
 json_normalize()
 DataFrame.drop_duplicates(subset=None, keep='first', inplace=False)
 DataFrame.columns = [" "]
