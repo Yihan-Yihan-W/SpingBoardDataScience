@@ -24,3 +24,15 @@ B) largest lake
     same methods as A)
 C) highest elevation airport 
    # ?????? I can't convert string to int/float #
+   
+
+# Useful codes:
+root.iter()
+
+for child in element.findall("xxx"):
+    int(child.text)
+
+element.findtext()
+
+root.find("river")[:]
+
