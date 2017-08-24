@@ -2,7 +2,7 @@
 Codes for data science courses
 
 # Data Wrangling Project
-# 1. JSON Data Wrangling project
+## 1. JSON Data Wrangling project
 
   I normalize the JSON_world_bank data and extract the top 10 countries with most projects
   I Find the top 10 major project themes based on themecode I found the themecode difficult to understand, therefore,   I extract the information of themecode with its corresponding themename as a DataFrame called themename. By merging the top 10 counts with themename dataframe, the outcome shows both themecode, themename, and counts
@@ -16,7 +16,7 @@ Codes for data science courses
   df.reindex(columns= ) 
   df.replace('', np.nan).bfill()
  
-# 2. XML Data Wrangling Project 
+## 2. XML Data Wrangling Project 
 XML exercise is an ipython notebook to extract useful information from xml files.
 The data source is from Mondial database: http://www.dbis.informatik.uni-goettingen.de/Mondial/
 
@@ -54,10 +54,10 @@ Useful codes:
 
 root.find("river")[:]
 
-# 3. SQL_Yammer Data Wrangling Project 
+## 3. SQL_Yammer Data Wrangling Project 
 Its is an exericise using Mode to write SQL queries and generate reports. 
 Reports & Codes : https://modeanalytics.com/yihanyihan/reports/5d1898a86885
 
 # Inferential Statistics 
-# 4. Statistics1_body temperature
-# 5. Statistics2_race employment 
+## 4. Statistics1_body temperature
+## 5. Statistics2_race employment 
